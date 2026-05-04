@@ -1,5 +1,3 @@
-// YAY HAHA
-
 const display = document.getElementById("display");
 
 function appendToDisplay(input){
@@ -16,5 +14,7 @@ function calculate(){
     }
     catch(error){
         display.value = "nope.";
+		let audio = new Audio('./sfx/combobreak.mp3');
+		audio.play();
     }
 }
