@@ -13,7 +13,7 @@ function calculate(){
         display.value = eval(display.value);
     }
     catch(error){
-        display.value = "ERROR: Operation symbol was in last";
+        display.value = "Error";
 		let audio = new Audio('./sfx/combobreak.mp3');
 		audio.play();
     }

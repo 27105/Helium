@@ -7,7 +7,7 @@ body{
     background-color: hsl(0, 0%, 95%);
 }
 #calculator{
-    font-family: "Comic Sans MS", cursive !important;
+    font-family: 'Comic Sans MS', cursive !important;
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
     max-width: 500px;
